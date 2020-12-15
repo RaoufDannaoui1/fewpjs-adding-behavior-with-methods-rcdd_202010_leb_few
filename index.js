@@ -34,7 +34,7 @@ class Bird {
       return this.name+" says squawk!"
   }
 }
-
-Cat.speak();
+let cat = new Cat("Cat","Male")
+cat.speak();
 Dog.speak();
 Bird.speak();
